@@ -16,19 +16,13 @@ public class MessageHandler implements WebSocketHandler {
     }
 
     @Override
-    public void afterConnectionClosed(WebSocketSession session, CloseStatus status) throws Exception {
-        
-    }
+    public void afterConnectionClosed(WebSocketSession session, CloseStatus status) throws Exception { }
 
     @Override
-    public void handleTransportError(WebSocketSession session, Throwable exception) throws Exception {
-        
-    }
+    public void handleTransportError(WebSocketSession session, Throwable exception) throws Exception { }
 
     @Override
-    public boolean supportsPartialMessages() {
-        return false;
-    }
+    public boolean supportsPartialMessages() { return false; }
 
     @Override
     public void handleMessage(WebSocketSession session, WebSocketMessage<?> message) throws Exception {
